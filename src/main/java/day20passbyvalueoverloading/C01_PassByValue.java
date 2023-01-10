@@ -2,27 +2,6 @@ package day20passbyvalueoverloading;
 
 public class C01_PassByValue {
 
-
-
-/*
-     PASS BY VALUE:
-     methoda value `nun bir kopyasi gonder demektir
-BU nedenle pass by valuada orjinal parametre degismezz. java pass value kullanilir.
-java kesinlikle pass referans kullnmaz.
-java neden pass by value kullanir:
-1:java variablenin orjinal degerini korumak ister
-2:java variablein icindeki degerini kopyalar ve methodu icine kopya degerini gonderir
-deger uzerinde yapilan degisikler orjinal parametreyi etkilemz.
-
-Pass By Referance 'da ise referans kopyalanir ve method da kullanilior.
-
-Yapilan degisiklik orjinal parametreyi etkiler.
-
-Bu tarz programlar degeri korumak istiyorsa isi developera birakmistir.
-
-Kendisi degeri degistirir
-
-      */
 public static void main(String[] args) {
 
 

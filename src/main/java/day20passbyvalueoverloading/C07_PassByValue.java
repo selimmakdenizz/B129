@@ -33,6 +33,7 @@ public class C07_PassByValue {
     private static void indirimYap25(int fiyat) {
         fiyat*=0.75;
         System.out.println("%25 indirimli fiyat:"+fiyat);
+
     }
 
 
