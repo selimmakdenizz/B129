@@ -53,7 +53,7 @@ public class ArrayLists02 {
         for (String w:cities) {
             sum=sum+w.length();
         }
-        System.out.println(sum);
+        System.out.println(sum);//26
 
 
 
@@ -63,11 +63,11 @@ public class ArrayLists02 {
             toplam=toplam+cities.get(i).length();
 
         }
-        System.out.println(toplam);
+        System.out.println(toplam);//26
 
 //Bir List'teki istenen bir elemani nasil degistirebiliriz?
         cities.set(0,"New York");
-        System.out.println(cities);
+        System.out.println(cities);//[New York, Istanbul, Kayseri, Almaty]
 
 
 
@@ -84,7 +84,7 @@ public class ArrayLists02 {
             salary.set(idx,w*1.20);
             idx++;
         }
-        System.out.println(salary);
+        System.out.println(salary);//[23400.3, 10200.9, 39000.6
 
         //2.YOL:
         for (int i=0; i<salary.size(); i++){

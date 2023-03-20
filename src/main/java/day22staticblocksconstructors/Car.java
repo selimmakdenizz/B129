@@ -7,7 +7,7 @@ public class Car {
 
 /*
     Constructor nedir?
-    Class'dan object  uretmemize yarayan code vloack'laridir.
+    Class'dan object  uretmemize yarayan code block'laridir.
 
     Class olusturdugumuzda Java bize otomatik olarak bir Constractor verir.
     Ama bu constractor gozle gorulmez, gozle gorulmeyen otomatik olarak Java tarafindan verilen bu Constractor'lara
@@ -20,7 +20,7 @@ public class Car {
 
         Farkli constructor'lar sayesinde bir class'dan farkli farkli oobject'ler olusturabiliriz.
 
-
+****************
       Interview sorusu : Method ile constructor'in farki varmidir? varsa nedir?
 Cevap:             Method ile constructor farkli yapilardir.
                    i)Method'larda return type vardir ama constructor'larda return type yoktur
@@ -64,7 +64,7 @@ Cevap:             Method ile constructor farkli yapilardir.
 
     }
 
-
+        //toString methodu olmadan objeleri consola yazdıramayız
     @Override
     public String toString() {
         return "Car{" +

@@ -1,0 +1,34 @@
+  NumberFormatException:  Format dışı kullanımında gerçekleşen durumdur. Örneğin sayı girilmesi gereken yere karakter girilmesi gibi. = compile time
+2.       ArrayIndexOutOfBoundsException:  Array'da aranan index dışında bir değer girilmişse bu exception ortaya çıkar. = run time
+3.       FileNotFoundException: Oluşturulmamış bir dosyaya erişim durumunda meydana gelen hatadır. = compile time
+NOT: Java böyle bir durumda bize altı kırmızı çizili bir şekilde uyarı verir ve bizden method signature'ına throws keyword'lü bir exception yazmamızı ister. Bu şekilde ilgili exception handle edilmiş olur.
+4.       VirtualMachineError: JVM'nin çalışmasını etkileyen durumları inceler. = Error
+5.       AWTError: Grafik arayüze ait hataları inceler. = Error
+6.       ArrayStoreException: Array'a kendi türü dışında bir veri girilmesi durumunda gerçekleşir. = run time
+7.       OutOfMemoryError: Bellek yetersizliği durumlarını inceler. = Error
+8.       ClassNotFoundException: Olmayan bir class'a erişme istediği durumlarını inceler.
+= run time
+9.       IOException: Giriş çıkış işlemlerindeki istenmeyen durumları inceler. = compile time
+10.   ClassCastException: Herhangi bir nesne değişkenine farklı bir tip değer girilmesi = run time
+Örnek
+Object i = Integer.valueOf (42);
+String s = (String)i;            // ClassCastException thrown here.
+11.   StringIndexOutOfBoundsException: String'de var olmayan bir indekse erişilmeye çalışıldığında gerçekleşen hata. = run time
+12.   AritmeticException: Sıfıra bölme gibi mantıksal matematik hatalarında oluşur. Örneğin    = run time
+( İnt x = 10;
+İnt y = 0;
+System.out.println (x/y) ;
+Komutu exception fırlatır. )
+13.   NullPointerException: Herhangi bir nesne değişkenine ilk değer atanmadan kullanılmaya çalışıldığında ortaya çıkar. = run time
+14.   IllegalArgumentException: Metotlara geçersiz argüman atamalarında fırlatılır.= run time
+NOT: Compile Time Exceptionları kontol altına almak için try catch bloğu kullanırız.
+Örnek syntax:
+  try {
+
+   int a= 42 / 0;
+
+ } catch (ArithmeticException Hata) {
+
+   System.out.print("Hata oluştu :" + Hata.getMessage());
+
+ }

@@ -46,6 +46,24 @@ public class Q07_List_OrtalamaUstuNotlar {
 
         System.out.println("ortalamaUstuNotSayisi = " + ortalamaUstuNotSayisi);
 
-    }
-}
+
+
+
+
+        }
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
 

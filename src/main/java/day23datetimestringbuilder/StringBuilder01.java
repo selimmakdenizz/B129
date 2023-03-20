@@ -42,11 +42,11 @@ Java da String , "String Class"  kullaninarak veya "StringBuilder Class" kullani
         System.out.println(sb1);//Python!?.
 
 
-        //StringBuilder kullanarak String üretmenin 1.yolu
+        //StringBuilder kullanarak String üretmenin 2.yolu
         StringBuilder sb2 = new StringBuilder();
         System.out.println(sb2.length());//0
         //StringBuilder kullandiginizda baslangic kapasitesi 16 dir.
-        //Kapasite asildiginda varolan kapasite nin iki fazlasi kadar varolan kapasiteye ekleme yapilir,
+        //Kapasite asildiginda varolan kapasite nin 2 katının iki fazlasi kadar varolan kapasiteye ekleme yapilir,
         // 16 ==> 16*2+2       -       34 ==> 34*2+2
         System.out.println(sb2.capacity());//16
 
@@ -68,7 +68,7 @@ Java da String , "String Class"  kullaninarak veya "StringBuilder Class" kullani
 
         sb3.append("Flo");
         System.out.println(sb3.length());//3
-        System.out.println(sb3.capacity());//6
+        System.out.println(sb3.capacity());//6  (2*2+2)
 
         sb3.insert(2, "XXXXX");//FlXXXXXo
         System.out.println(sb3.length());//9
@@ -79,6 +79,9 @@ Java da String , "String Class"  kullaninarak veya "StringBuilder Class" kullani
         //String Class'ta var olan ama String builder class'ta var olmayan split() methot gibi
         //methotlara ihtiyac duydugumuzda toString() methodunu kullanarak String class'a gecer ve o methotlari
         //kullaniriz
+
+
+        //stringi tekrar string buıildere çevirir
         sb3.toString().split("l");
 
 
@@ -86,7 +89,7 @@ Java da String , "String Class"  kullaninarak veya "StringBuilder Class" kullani
         sb3.reverse();
         System.out.println(sb3);//oXXXXXlF
 
-
+        //deletecharat
         sb3.deleteCharAt(0);
         System.out.println(sb3);//XXXXXlF
 

@@ -22,13 +22,13 @@ public class Student {
         public int age=13;
 
 
-        //öğrenci işlerinin ilk harflerini veren methodu oluşturunuz
+        //İsmin ilk harflerini veren methodu oluşturunuz
     public static String getInitials (String name){
 
         String first = name.substring(0,1);
         String second = name.split(" ")[1].substring(0,1);
 
-        return first+second;
+        return first+second;//AC
     }
     //öğrenci isimlerindeki sesli  harfleri sayan methodu oluşturunuz
 

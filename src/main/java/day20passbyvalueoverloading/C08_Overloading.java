@@ -27,7 +27,7 @@ public class C08_Overloading {
         degistirmek mantiklidir yoska mantiksiz olur)
             2.3) Parametre degistirirken parametrelerin sayisi degistirilebilir.
           3)Java icin "ismi" ve "parametreleri" ayni olan iki method tamamiyla aynidir.
-    Bu yuzden "ismi" ve "parametreleri" "Method Signature" olarak adlandirilir.
+    Bu yuzden "ismi" ve "parametreleri" aynı olan  "Method Signature" olarak adlandirilir.
   4)Method Overloading olustururken "return type"'i degistirmenin hicbir etkisi yoktur.
     Method Overloading olustururken "access modifier"'i degistirmenin hicbir etkisi yoktur.
     Method Overloading olustururken method'u "static" ya da "non-static" yapmanin hicbir etkisi yoktur.
@@ -58,6 +58,7 @@ public class C08_Overloading {
     }
 
     private static void topla(double a, int b) {
+
         System.out.println(a + b);
     }
 
